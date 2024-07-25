@@ -4712,7 +4712,7 @@ local aa = {
         local aa, ab, ac, ad, ae = b(53)
         return {
             Name = 'Rose',
-            Accent = Color3.fromRGB(180, 55, 90),
+            Accent = Color3.fromRGB(255, 0, 52),
             AcrylicMain = Color3.fromRGB(40, 40, 40),
             AcrylicBorder = Color3.fromRGB(130, 90, 110),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(190, 60, 135), Color3.fromRGB(165, 50, 70)),
@@ -4745,7 +4745,7 @@ local aa = {
             Text = Color3.fromRGB(240, 240, 240),
             SubText = Color3.fromRGB(170, 170, 170),
             Hover = Color3.fromRGB(200, 120, 170),
-            HoverChange = 0.04
+            HoverChange = 0.01
         }
     end
 }
