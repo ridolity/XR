@@ -570,7 +570,7 @@ local aa = {
                 }
             }), s.ButtonHolder})
             s.Title = p('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 Text = 'Dialog',
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -951,7 +951,7 @@ local aa = {
                 RichText = true,
                 Text = k,
                 TextTransparency = 0,
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black, Enum.FontStyle.Normal),
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                 TextSize = 18,
                 TextXAlignment = 'Left',
                 TextYAlignment = 'Center',
@@ -1414,7 +1414,7 @@ local aa = {
                 RichText = true,
                 Text = 'Tab',
                 TextTransparency = 0,
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black, Enum.FontStyle.Normal),
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold, Enum.FontStyle.Normal),
                 TextSize = 28,
                 TextXAlignment = 'Left',
                 TextYAlignment = 'Center',
