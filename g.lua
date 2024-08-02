@@ -654,7 +654,7 @@ local aa = {
         return function(m, n, o, p)
             local q = {}
             q.TitleLabel = k('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 Text = m,
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -1018,7 +1018,7 @@ local aa = {
                 RichText = true,
                 TextColor3 = Color3.fromRGB(255, 255, 255),
                 TextTransparency = 0,
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 TextSize = 12,
                 TextXAlignment = 'Left',
@@ -1303,7 +1303,7 @@ local aa = {
             }), l('TextLabel', {
                 RichText = true,
                 Text = n.Title,
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 TextSize = 12,
                 TextXAlignment = 'Left',
@@ -1318,7 +1318,7 @@ local aa = {
                 RichText = true,
                 Text = n.SubTitle,
                 TextTransparency = 0.4,
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 TextSize = 12,
                 TextXAlignment = 'Left',
@@ -1904,7 +1904,7 @@ local aa = {
                     return D
                 end, function(D, E)
                     return s('TextLabel', {
-                        FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                        FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                             Enum.FontStyle.Normal),
                         Text = D,
                         TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -2253,7 +2253,7 @@ local aa = {
             l.SetTitle = m.SetTitle
             l.SetDesc = m.SetDesc
             local n, o = e('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 Text = 'Value',
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -2702,7 +2702,7 @@ local aa = {
             h.SetTitle = j.SetTitle
             h.SetDesc = j.SetDesc
             local k = ai('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Bold,
                     Enum.FontStyle.Normal),
                 Text = f.Default,
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -3163,7 +3163,7 @@ local aa = {
                 ['lucide-bluetooth-connected'] = 'rbxassetid://10709776240',
                 ['lucide-bluetooth-off'] = 'rbxassetid://10709776344',
                 ['lucide-bluetooth-searching'] = 'rbxassetid://10709776501',
-                ['lucide-Black'] = 'rbxassetid://10747813908',
+                ['lucide-bold'] = 'rbxassetid://10747813908',
                 ['lucide-bomb'] = 'rbxassetid://10709781460',
                 ['lucide-bone'] = 'rbxassetid://10709781605',
                 ['lucide-book'] = 'rbxassetid://10709781824',
