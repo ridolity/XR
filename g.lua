@@ -60,7 +60,7 @@ local aa = {
         local w = u('ScreenGui', {
             Parent = i:IsStudio() and j.PlayerGui or game:GetService 'CoreGui'
         })
-        v(w) -- BuilderSansExtraBold
+        v(w) -- GrenzeGotisch
         t:Init(w)
         local x = {
             Version = '1.1.0',
@@ -466,7 +466,7 @@ local aa = {
             o = o or false
             local p = {}
             p.Title = k('TextLabel', {
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 TextColor3 = Color3.fromRGB(200, 200, 200),
                 TextSize = 17,
                 TextWrapped = true,
@@ -570,7 +570,7 @@ local aa = {
                 }
             }), s.ButtonHolder})
             s.Title = p('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.SemiBold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 Text = 'Dialog',
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -654,7 +654,7 @@ local aa = {
         return function(m, n, o, p)
             local q = {}
             q.TitleLabel = k('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 Text = m,
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -668,7 +668,7 @@ local aa = {
                 }
             })
             q.DescLabel = k('TextLabel', {
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 Text = n,
                 TextColor3 = Color3.fromRGB(200, 200, 200),
                 TextSize = 12,
@@ -791,7 +791,7 @@ local aa = {
                 RichText = true,
                 TextColor3 = Color3.fromRGB(255, 255, 255),
                 TextTransparency = 0,
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 TextSize = 13,
                 TextXAlignment = 'Left',
                 TextYAlignment = 'Center',
@@ -803,7 +803,7 @@ local aa = {
                 }
             })
             r.ContentLabel = n('TextLabel', {
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 Text = q.Content,
                 TextColor3 = Color3.fromRGB(240, 240, 240),
                 TextSize = 17,
@@ -818,7 +818,7 @@ local aa = {
                 }
             })
             r.SubContentLabel = n('TextLabel', {
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 Text = q.SubContent,
                 TextColor3 = Color3.fromRGB(240, 240, 240),
                 TextSize = 17,
@@ -951,7 +951,7 @@ local aa = {
                 RichText = true,
                 Text = k,
                 TextTransparency = 0,
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black, Enum.FontStyle.Normal),
                 TextSize = 18,
                 TextXAlignment = 'Left',
                 TextYAlignment = 'Center',
@@ -1018,7 +1018,7 @@ local aa = {
                 RichText = true,
                 TextColor3 = Color3.fromRGB(255, 255, 255),
                 TextTransparency = 0,
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 TextSize = 12,
                 TextXAlignment = 'Left',
@@ -1141,7 +1141,7 @@ local aa = {
             n = n or false
             local o = {}
             o.Input = l('TextBox', {
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 TextColor3 = Color3.fromRGB(200, 200, 200),
                 TextSize = 17,
                 TextXAlignment = Enum.TextXAlignment.Left,
@@ -1303,7 +1303,7 @@ local aa = {
             }), l('TextLabel', {
                 RichText = true,
                 Text = n.Title,
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 TextSize = 12,
                 TextXAlignment = 'Left',
@@ -1318,7 +1318,7 @@ local aa = {
                 RichText = true,
                 Text = n.SubTitle,
                 TextTransparency = 0.4,
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 TextSize = 12,
                 TextXAlignment = 'Left',
@@ -1414,7 +1414,7 @@ local aa = {
                 RichText = true,
                 Text = 'Tab',
                 TextTransparency = 0,
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black, Enum.FontStyle.Normal),
                 TextSize = 28,
                 TextXAlignment = 'Left',
                 TextYAlignment = 'Center',
@@ -1604,7 +1604,7 @@ local aa = {
                 local P = M:Create()
                 P.Title.Text = O.Title
                 local Q = s('TextLabel', {
-                    FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                    FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                     Text = O.Content,
                     TextColor3 = Color3.fromRGB(240, 240, 240),
                     TextSize = 17,
@@ -1904,7 +1904,7 @@ local aa = {
                     return D
                 end, function(D, E)
                     return s('TextLabel', {
-                        FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                        FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                             Enum.FontStyle.Normal),
                         Text = D,
                         TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -2253,7 +2253,7 @@ local aa = {
             l.SetTitle = m.SetTitle
             l.SetDesc = m.SetDesc
             local n, o = e('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 Text = 'Value',
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -2434,7 +2434,7 @@ local aa = {
                     }, {e('UICorner', {
                         CornerRadius = UDim.new(0, 2)
                     })}), e('TextLabel', {
-                        FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                        FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                         Text = I,
                         TextColor3 = Color3.fromRGB(200, 200, 200),
                         TextSize = 13,
@@ -2702,7 +2702,7 @@ local aa = {
             h.SetTitle = j.SetTitle
             h.SetDesc = j.SetDesc
             local k = ai('TextLabel', {
-                FontFace = Font.new('rbxasset://fonts/families/BuilderSansExtraBold.json', Enum.FontWeight.Bold,
+                FontFace = Font.new('rbxasset://fonts/families/GrenzeGotisch.json', Enum.FontWeight.Black,
                     Enum.FontStyle.Normal),
                 Text = f.Default,
                 TextColor3 = Color3.fromRGB(240, 240, 240),
@@ -2905,7 +2905,7 @@ local aa = {
             }, {ai('UICorner', {
                 CornerRadius = UDim.new(1, 0)
             })}), ai('TextLabel', {
-                FontFace = Font.new 'rbxasset://fonts/families/BuilderSansExtraBold.json',
+                FontFace = Font.new 'rbxasset://fonts/families/GrenzeGotisch.json',
                 Text = 'Value',
                 TextSize = 12,
                 TextWrapped = true,
@@ -3163,7 +3163,7 @@ local aa = {
                 ['lucide-bluetooth-connected'] = 'rbxassetid://10709776240',
                 ['lucide-bluetooth-off'] = 'rbxassetid://10709776344',
                 ['lucide-bluetooth-searching'] = 'rbxassetid://10709776501',
-                ['lucide-bold'] = 'rbxassetid://10747813908',
+                ['lucide-Black'] = 'rbxassetid://10747813908',
                 ['lucide-bomb'] = 'rbxassetid://10709781460',
                 ['lucide-bone'] = 'rbxassetid://10709781605',
                 ['lucide-book'] = 'rbxassetid://10709781824',
